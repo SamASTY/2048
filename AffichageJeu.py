@@ -2,6 +2,7 @@ import Responsive as R
 import Couleurs as C
 import TableauJeu as T
 import Param
+import AffichageAccueil
 
 import pygame
 import sys
@@ -35,8 +36,11 @@ def jouer():
     while running:
 
         for event in pygame.event.get():
+            if running == False:
+                AffichageAccueil.PageAccueil()
             if event.type == pygame.QUIT:
                 running = False
+                AffichageAccueil.PageAccueil()
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_UP:
                     if T.peut_jouer(valeurs, T.HAUT):
