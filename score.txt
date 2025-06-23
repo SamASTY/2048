@@ -1,0 +1,17 @@
+Mario,11,15.0
+Luigi,20,18.0
+Yoshi,9,45.0
+Peach,17,38.0
+Bowser,3,55.0
+Daisy,19,22.0
+Wario,14,28.0
+Toad,7,40.0
+Peach,43,37.4
+CaptainFalcon,7,15.2
+Bowser,21,50.7
+Kirby,56,10.8
+Zelda,3,29.5
+Fox,19,45.1
+Mario,32,24.3
+Donkey,14,5.9
+Ness,48,12.7
