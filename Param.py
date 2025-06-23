@@ -4,6 +4,7 @@ taille_max_fenetre = None
 taille_jeu = None
 titre = 200
 taille_case = None
+largeur = 200
 
 
 def init_fonts():
