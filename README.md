@@ -15,6 +15,7 @@ Faites la commande > import pygame
 
 ##### Lancement du jeu
 Après avoir téléchargé et tous les fichiers .py necessaire au jeu, lancez 2048.py avec Python
+Les seules touches utilisable sont les flèches directionnelles et la touche entrée.
 
 ## À propos
 Ce jeu a été créé durant mon temps libre en environ 10h.
