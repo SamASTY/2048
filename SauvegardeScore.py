@@ -1,5 +1,6 @@
-import Param
 import pygame
+
+import Param
 import Couleurs as C
 
 fichier = "score.txt"

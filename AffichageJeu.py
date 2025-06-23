@@ -1,11 +1,12 @@
+import pygame
+import sys
+
 import Responsive as R
 import Couleurs as C
 import TableauJeu as T
 import Param
 import AffichageAccueil
 import SauvegardeScore as S
-import pygame
-import sys
 
 
 def jouer():

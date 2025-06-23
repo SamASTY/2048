@@ -1,5 +1,4 @@
 import random as rand
-from traceback import extract_stack
 
 HAUT = (-1, 0)
 BAS = (1, 0)

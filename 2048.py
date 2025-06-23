@@ -1,6 +1,7 @@
+import pygame
+
 import AffichageAccueil
 import Param
-import pygame
 import Responsive as R
 
 pygame.init()

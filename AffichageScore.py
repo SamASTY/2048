@@ -1,10 +1,10 @@
+import pygame
+import sys
+
 import Param
 import Couleurs as C
 import SauvegardeScore as S
-import Responsive as R
 import AffichageAccueil
-import pygame
-import sys
 
 def Score():
     pygame.init()

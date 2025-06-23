@@ -1,8 +1,9 @@
+import pygame
+import sys
+
 import Responsive as R
 import Couleurs as C
 import Param
-import pygame
-import sys
 import AffichageJeu
 import SauvegardeScore as S
 import AffichageScore
