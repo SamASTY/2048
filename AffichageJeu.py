@@ -3,7 +3,7 @@ import Couleurs as C
 import TableauJeu as T
 import Param
 import AffichageAccueil
-
+import SauvegardeScore as S
 import pygame
 import sys
 
@@ -37,6 +37,7 @@ def jouer():
 
         for event in pygame.event.get():
             if running == False:
+                S.save_score(S.pseudoTmp, Deplacement,Temps)
                 AffichageAccueil.PageAccueil()
             if event.type == pygame.QUIT:
                 running = False
