@@ -1,21 +1,38 @@
-# Projet personnel – Jeu de 2048 avec sauvegarde de score en Python
-2025
-#### Objectif : faire, avec une interface graphique et une gestion de sauvegarde, un jeu de 2048.
-## Prérequis
-Nécessite Python et Pygame
-##### Installation de Python
-Télécharger la version 13.3 (dernière mise à jour du jeu) ici → https://www.python.org/downloads/ .
-Installer Python sur votre machine.
+# 🎮 Projet personnel – Jeu de 2048 avec sauvegarde de score en Python  
+🗓️ 2025
 
-##### Installation de Pygame pour Windows
-Dans le terminal de commande (WIN + R + cmd + entrée)
-Faites la commande > python -m pip install pygame
-Lancer un interpréteur python avec la commande > py
-Faites la commande > import pygame
+---
 
-##### Lancement du jeu
-Après avoir téléchargé et tous les fichiers .py necessaire au jeu, lancez 2048.py avec Python
-Les seules touches utilisable sont les flèches directionnelles et la touche entrée.
+## 🎯 Objectif
 
-## À propos
-Ce jeu a été créé durant mon temps libre en environ 10h.
+Créer un **jeu 2048** en **Python**, avec :
+
+- 🖼️ Une **interface graphique** grâce à **Pygame**
+- 💾 Une **gestion de sauvegarde des scores**
+- 🎮 Un gameplay basé sur les **touches directionnelles** et **Entrée**
+
+---
+
+## 🛠️ Prérequis
+
+- 🐍 **Python** (version recommandée : 3.13.3)
+- 🎮 **Pygame** (bibliothèque pour interface graphique)
+
+---
+
+### 🐍 Installation de Python
+
+Téléchargez la dernière version (13.3) ici :  
+🔗 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+Puis installez Python sur votre machine comme un programme classique.
+
+---
+
+### 📦 Installation de Pygame (Windows)
+
+1. Ouvrir le terminal Windows  
+   `Touche Windows + R` → tapez `cmd` → appuyez sur Entrée
+2. Installer Pygame :
+   ```bash
+   python -m pip install pygame
